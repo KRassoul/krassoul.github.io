@@ -26,3 +26,5 @@ body{min-height:100vh;display:flex;flex-direction:column}main{flex:1}nav a[aria-
 .award-links{display:flex;flex-wrap:wrap;gap:14px 24px;margin-top:18px}.award-links a{font-size:.875rem;font-weight:600;text-underline-offset:4px}
 
 .supervisor-link{font-weight:600;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}.supervisor-link:hover{background:var(--accent,#d8f47b)}
+
+.project-description p{color:var(--muted);line-height:1.8}.project-description p+p{margin-top:18px}.project-meta{align-self:start}.project-award{background:var(--wash);border-left:3px solid #7b9b2c;padding:20px;margin-top:26px}.project-award h3{font-size:1rem;line-height:1.5}.project-award>p{font-size:.875rem;color:var(--muted);margin-top:9px}
