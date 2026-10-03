@@ -28,3 +28,10 @@ body{min-height:100vh;display:flex;flex-direction:column}main{flex:1}nav a[aria-
 .supervisor-link{font-weight:600;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}.supervisor-link:hover{background:var(--accent,#d8f47b)}
 
 .project-description p{color:var(--muted);line-height:1.8}.project-description p+p{margin-top:18px}.project-meta{align-self:start}.project-award{background:var(--wash);border-left:3px solid #7b9b2c;padding:20px;margin-top:26px}.project-award h3{font-size:1rem;line-height:1.5}.project-award>p{font-size:.875rem;color:var(--muted);margin-top:9px}
+
+/* Balance the portrait and name on the home page. */
+.hero h1{font-size:clamp(2.5rem,4.1vw,3.7rem);line-height:1.08}.hero h1 span{font-size:1em}.profile-portrait{width:196px;height:196px}.hero-profile{gap:26px;margin-bottom:24px}.hero-role{margin-top:22px}
+@media(min-width:1450px){.hero h1{font-size:3.8rem}}
+@media(max-width:1000px){.hero h1{font-size:3.1rem}.profile-portrait{width:172px;height:172px}}
+@media(max-width:760px){.hero h1{font-size:clamp(2.35rem,8vw,3rem)}.profile-portrait{width:156px;height:156px}.hero-profile{gap:18px}.hero-profile .eyebrow{font-size:.75rem}}
+@media print{.hero h1{font-size:30pt}.profile-portrait{width:112px;height:112px}}
