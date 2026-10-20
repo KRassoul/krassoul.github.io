@@ -37,4 +37,4 @@ body{min-height:100vh;display:flex;flex-direction:column}main{flex:1}nav a[aria-
 @media print{.hero h1{font-size:30pt}.profile-portrait{width:112px;height:112px}}
 
 .cerdi-link{color:inherit;font-weight:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.16em}
-.cerdi-link:hover{background:var(--accent,#d8f47b);text-decoration-thickness:2px}
+.cerdi-link:hover{text-decoration-thickness:2px}
